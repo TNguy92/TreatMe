@@ -154,3 +154,15 @@ footer{
   background-color: #e8491d;
   text-align: center;
 }
+
+#map
+{
+margin-left: auto;
+margin-right: auto;
+height:300px;
+width: 30%;
+}
+h1
+{
+text-align:center;
+}
