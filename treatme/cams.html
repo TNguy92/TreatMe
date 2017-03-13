@@ -31,27 +31,31 @@
     </section>
 
 
-    <!--<section id="newsletter">-->
-      <!--<div class="container">-->
-        <!--<h1>Subscribe to Our Newsletter</h1>-->
-        <!--<form>-->
-          <!--<input type="email" placeholder="Enter Email">-->
-          <!--<button type="submit" class="button1">Subscribe</button>-->
-        <!--</form>-->
-      <!--</div>-->
-    <!--</section>-->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button1">Subscribe</button>
+        </form>
+      </div>
+    </section>
 
     <section id = "Google Maps">
-      <h1>Google Maps</h1>
+        <h1>Google Maps</h1>
       <div id = "map"></div>
-      <script>
+
+
+        <script>
+
+
               function initMap()
               {
                 var map = new google.maps.Map(document.getElementById('map'),
                 {
                     center: {lat: 34.038078, lng: -84.581572},
                     zoom: 8,
-                                styles: [
+                    styles: [
                                 {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
                                 {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
                                 {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
